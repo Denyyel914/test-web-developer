@@ -57,7 +57,7 @@ ul {
   padding: 1rem;
 }
 
-.main-nav li a::before {
+/* .main-nav li a::before {
   content: '';
   position: absolute;
   top: 0;
@@ -75,7 +75,7 @@ ul {
   border: 20px solid;
   border-right-color: transparent !important;
   border-bottom-color: transparent !important;
-}
+} */
 
 .main-nav .logo {
   width: 200px;
@@ -86,7 +86,7 @@ ul {
 }
 
 .main-nav ul li {
-  padding: 2.2rem;
+  padding: 25px;
 }
 
 .main-nav ul li a {
@@ -146,12 +146,13 @@ ul {
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
-  padding-left: 1.5rem;
+  
   line-height: 1.5rem;
 }
 
 .left ul li {
   font-size: 15px;
+  margin-left: 1rem;
 }
 
 .right {
@@ -239,6 +240,14 @@ ul {
   
   .left {
     margin-bottom: 2rem;
+  }
+
+  .right .img {
+    grid-template-columns: 1fr;
+  }
+
+  .right img {
+    height: auto;
   }
 }
 
